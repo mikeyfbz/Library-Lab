@@ -23,9 +23,10 @@ public class BookTest {
     }
 
     @Test
-    public void aBookHasAGenre(){
+    public void aBookHasAGenre() {
         assertEquals("Sci-fi", book.getGenre());
     }
+
 
 
 }
